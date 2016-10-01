@@ -26,6 +26,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.ceaiitm.ankitk97.testposts.MainActivity" />
         </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_No_Title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
